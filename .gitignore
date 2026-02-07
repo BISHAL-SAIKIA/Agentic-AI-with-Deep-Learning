@@ -1,0 +1,44 @@
+# -----------------------------
+# Python virtual environments
+# -----------------------------
+venv/
+.env
+
+# -----------------------------
+# Python cache / bytecode
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+
+# -----------------------------
+# Experiment tracking (Weights & Biases)
+# -----------------------------
+wandb/
+
+# -----------------------------
+# OS / Editor files
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -----------------------------
+# Jupyter checkpoints (if added later)
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# Logs / temporary files
+# -----------------------------
+*.log
+*.tmp
+*.swp
+
+# -----------------------------
+# Optional: large generated datasets
+# (comment these out if you want to version data)
+# -----------------------------
+# urban_migration_equilibrium.csv
+# urban_migration_equilibrium_usingScipy.csv

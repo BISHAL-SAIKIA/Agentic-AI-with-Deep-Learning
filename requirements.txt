@@ -1,0 +1,12 @@
+# Core numerical stack
+numpy>=1.21,<2.0
+scipy>=1.8,<1.13
+pandas>=1.4
+
+# Deep learning
+torch>=2.0
+
+# Training utilities
+tqdm>=4.64
+wandb>=0.15
+python-dotenv>=1.0
