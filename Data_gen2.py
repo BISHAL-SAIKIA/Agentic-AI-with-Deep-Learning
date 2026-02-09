@@ -6,7 +6,7 @@ from tqdm import tqdm
 # Constants
 N_CITIES = 10
 P_TOTAL = 150e6
-ALPHA = 0.01
+ALPHA = 1e-8
 BETA = 1.0
 
 base_amenities = np.array([100, 98, 95, 93, 92, 90, 88, 87, 85, 83])
@@ -71,5 +71,5 @@ populations = np.array(populations_list)
 
 columns = [f"amenity_{i+1}" for i in range(N_CITIES)] + [f"pop_{i+1}" for i in range(N_CITIES)]
 df = pd.DataFrame(np.hstack([amenities, populations]), columns=columns)
-df.to_csv("urban_migration_equilibrium_usingScipy.csv", index=False)
+df.to_csv("urban_migration_equilibrium_usingScipy2.csv", index=False)
 print("Done.")
