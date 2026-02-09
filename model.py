@@ -268,3 +268,8 @@ for i in range(5):
     variances.append(var)
 
 print(f"\nMean Variance over 5 runs: {np.mean(variances):.6f}")
+
+model_path = "migration_model.pt"
+
+torch.save(model.state_dict(),model_path)
+print(f"Model saved to {model_path}")
