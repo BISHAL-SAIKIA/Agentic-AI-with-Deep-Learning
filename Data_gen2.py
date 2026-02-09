@@ -5,8 +5,8 @@ from tqdm import tqdm
 
 # Constants
 N_CITIES = 10
-P_TOTAL = 150e6
-ALPHA = 1e-8
+P_TOTAL = 150
+ALPHA = 0.01
 BETA = 1.0
 
 base_amenities = np.array([100, 98, 95, 93, 92, 90, 88, 87, 85, 83])
